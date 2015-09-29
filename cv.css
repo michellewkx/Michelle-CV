@@ -1,0 +1,125 @@
+/*网页整体*/
+      /*  body
+        {
+            color: #00CCFF;
+        }*/
+.section1{background-color: #22c3aa;}
+.section2{background-color: #22c3aa;}
+.section3{background-color: #22c3aa;}
+.section4{background-color: #22c3aa;}
+
+#menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
+#menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
+#menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+#menu .active a { color: #fff; background-color: #333;}
+
+
+
+/*section 1*/
+
+.section1 img.img-circle{
+    border: 15px solid #CCFFFF;
+    transition:2s;
+}
+.section1 img.img-circle:hover{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg); /* Safari 和 Chrome */
+    -moz-transform: rotateY(180deg);    /* Firefox */
+    
+}
+.section1 h1{font-size: 5em;}
+.section1 a{text-decoration: none;}
+.section a h4{
+    color:#66FFCC;
+    transition:font-size .5s ,color .5s;
+}
+.section a h4:hover{
+    font-size: 1em;
+    color: #003300;
+}
+
+.section1 .text-center{
+    text-shadow:0px 0px 10px #CCFFCC;
+    color:#fff;
+}
+.section1 h2.text-center{
+    text-shadow:0px 0px 10px #66CCFF;
+}
+
+
+/*section 2*/
+div.section2 h1{
+    text-shadow:0px 0px 10px #CCFFCC;
+    color:#fff;
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+
+div.section a{font-size: 1.3em;}
+
+.btn-primary.disabled{
+    background-color: #0A0D0E;
+    margin-bottom: 1em;
+    padding:.3em;
+}
+#jQuery{opacity: 0.6;}
+#设计模式{opacity: 0.5;}
+#webGL{opacity: 0.3;}
+#网页设计{opacity: 0.5;}
+#Photoshop{opacity: 0.5;}
+#jQueryUI{opacity:0.4;}
+#CommonJS{opacity: 0.55;}
+
+/*section3*/
+
+div.section3 h1{
+    text-shadow:0px 0px 10px #CCFFCC;
+    color:#fff;
+    font-size: 5em;
+}
+div.section3 p{
+    font-size: 1.5em;
+    color: #669999;
+}
+div.section3 p.important{
+    font-size: 2em;
+    color: #fff;
+    font-weight: bolder;
+}
+.section3 a{text-decoration: none;}
+
+/*section4*/
+div.section4 h1{
+    text-shadow:0px 0px 10px #CCFFCC;
+    color:#fff;
+    font-size: 5em;
+}
+div.section4 span{
+    font-size: 2em;
+    color: #fff;
+    font-weight: bolder;
+}
+.section4 a{text-decoration: none;}
+
+.section4 a span {
+    color:#66FFCC;
+    transition:font-size .5s ,color .5s;
+}
+.section4 a span:hover{
+    font-size: 2em;
+    color: #003300;
+}
+.section4 img{
+    width:3em;
+    height: 3em;
+    margin:1em;
+    -webkit-filter: grayscale(1);/* Webkit */ 
+    filter:gray;/* IE6-9 */ 
+    filter: grayscale(1);/* W3C */ 
+    transition:.5s;
+}
+.section4 img:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg); /* Safari 和 Chrome */
+    -moz-transform: rotateY(360deg); 
+}
